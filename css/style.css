@@ -504,6 +504,15 @@ button{
     font-size: 15px;
   }
 }
+@media  screen and (max-width:850px) {
+  .clinets__img-box{
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .clients__img{
+    margin-bottom: 55px;
+  }
+}
 @media  screen and (max-width:768px) {
   .container{
     max-width: 720px;
@@ -552,5 +561,36 @@ button{
   }
   .menu-button{
     display: block;
+  }
+  .footer___contetns-box{
+    flex-flow: column wrap;
+    width: 327px;
+  }
+  .footer__list{
+    margin-top: 24px;
+  }
+  .footer__logo-img{
+    display: block;
+    margin: 0 auto;
+  }
+  .footer___contetns-box{
+    margin: 0 auto;
+  }
+  .logo-box__list{
+    width: 127px;
+    margin:0;
+    margin-top:20px;
+    margin: 0 auto;
+  }
+  .footer__item{
+    text-align: center;
+  }
+  .footer__icons-box{
+    flex-flow: column wrap;
+    justify-content: stretch;
+    margin-top: 40px;
+  }
+  .copyright{
+    margin-top: 16px;
   }
 }
