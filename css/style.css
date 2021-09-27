@@ -419,6 +419,16 @@ button{
   width: 730px;
   justify-content: space-evenly;
 }
+.menu-button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+.bx-menu{
+  color: #fff;
+  font-size: 50px;
+}
 
 @media  screen and (max-width:992px) {
   .container{
@@ -461,6 +471,7 @@ button{
     max-width: 573px;
     margin: 0 auto;
   }
+ 
   .directores__item {
     width: 281px;
   }
@@ -491,5 +502,55 @@ button{
   }
   .logo-box__link{
     font-size: 15px;
+  }
+}
+@media  screen and (max-width:768px) {
+  .container{
+    max-width: 720px;
+  }
+  .myteam__desc{
+    width: 450px;
+  }
+}
+@media  screen and (max-width:600px) {
+  .container{
+    max-width: 540px;
+  }
+  .myteam__desc{
+    width: 327px;
+  }
+  .directores {
+    background-position: left top -100px, right bottom;
+  }
+  .myteam__hero {
+    background-position: right bottom -100px;
+  }
+  .directores__item{
+    width: 327px;
+    margin: 0 auto;
+    margin-bottom: 52px;
+  }
+  .clients{
+    background-position: top -100px left -100px;
+  }
+  .get-started__content-box{
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .get-started__title{
+    width: 327px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .myteam__nav-bar,
+  .myteam__btn{
+    display: none;
+  }
+  .myteam__header{
+    justify-content: space-between;
+  }
+  .menu-button{
+    display: block;
   }
 }
